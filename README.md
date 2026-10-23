@@ -11,10 +11,11 @@ I'm a computer science student from Kerala, India with a focus on **digital fore
 | Category | Solved |
 |---|---|
 | 🔍 Forensics | 1 |
+| 🕵️ OSINT | 1 |
 | 🔄 Reverse Engineering | 0 |
 | 🌐 Web | 0 |
 | ⚙️ General Skills | 0 |
-| **Total** | **1** |
+| **Total** | **2** |
 
 ---
 
@@ -23,6 +24,7 @@ I'm a computer science student from Kerala, India with a focus on **digital fore
 ```
 sidharth-ctf/
 ├── Forensics/
+├── OSINT/
 └── _template/
     └── README.md     ← copy this for every new challenge
 ```
@@ -36,11 +38,16 @@ sidharth-ctf/
 |---|---|---|---|
 | [Disk, disk, sleuth! II](./Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis |
 
+### 🕵️ OSINT
+| Challenge | Platform | Difficulty | Key Concept |
+|---|---|---|---|
+| [Papertrail](./OSINT/papertrail/) | CREST CTF 2.0 | Medium | DOCX metadata forensics |
+
 ---
 
 ## 🛠️ Tools I Use
 
-`The Sleuth Kit` `Autopsy` `Wireshark` `Volatility` `Ghidra` `Binwalk` `Steghide` `CyberChef` `Python`
+`The Sleuth Kit` `Autopsy` `Wireshark` `Volatility` `Ghidra` `Binwalk` `Steghide` `CyberChef` `Python` `unzip` `base64` `grep`
 
 ---
 
