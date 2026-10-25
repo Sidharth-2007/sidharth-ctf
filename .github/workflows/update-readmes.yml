@@ -1,0 +1,39 @@
+name: Update READMEs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*/README.md'
+      - '!_template/**'
+      - '!README.md'
+      - '!Forensics/README.md'
+      - '!OSINT/README.md'
+      - '!scripts/**'
+  pull_request:
+    types: [closed]
+    branches: [main]
+    paths:
+      - '**/*/README.md'
+      - '!_template/**'
+permissions:
+  contents: write
+jobs:
+  update:
+    if: github.event_name == 'push' || github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: python scripts/update_readmes.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md Forensics/README.md OSINT/README.md
+          git diff --staged --quiet || git commit -m "chore: auto-update README indexes"
+          git push

@@ -1,61 +1,44 @@
-# 👾 sidharth-ctf
+```
+███████╗███████╗██████╗ ██╗   ██╗███████╗██████╗ 
+██╔════╝██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗
+███████╗█████╗  ██████╔╝██║   ██║█████╗  ██████╔╝
+╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██╔══╝  ██╔══██╗
+███████║███████╗██║  ██║ ╚████╔╝ ███████╗██║  ██║
+╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝
+        sidharth-ctf
+```
 
-> A structured collection of CTF writeups by **Sidharth** — documenting forensic analysis, reverse engineering, web exploitation, and more.
+## ▓▓▓▓▓▓▓▓▓▓ PROGRESS MATRIX ▓▓▓▓▓▓▓▓▓▓
 
-I'm a computer science student from Kerala, India with a focus on **digital forensics and cybersecurity**. This repository is my active learning journal — every writeup documents not just *how* I solved a challenge, but *what I understood* from it.
+🔍 **Forensics** `███░░░░░░░░░░░░░` 2
+🕵️ **OSINT** `█░░░░░░░░░░░░░░░` 1
 
----
+**TOTAL: 3 CHALLENGES SOLVED**
 
-## 📊 Progress Tracker
-
-| Category | Solved |
-|---|---|
-| 🔍 Forensics | 2 |
-| 🕵️ OSINT | 1 |
-| 🔄 Reverse Engineering | 0 |
-| 🌐 Web | 0 |
-| ⚙️ General Skills | 0 |
-| **Total** | **3** |
-
----
-
-## 📁 Repository Structure
+## ▓▓▓▓▓▓▓▓▓▓ REPO TREE ▓▓▓▓▓▓▓▓▓▓
 
 ```
 sidharth-ctf/
-├── Forensics/
-├── OSINT/
-└── _template/
-    └── README.md     ← copy this for every new challenge
+├── 🔍 Forensics/
+│   ├── binary-digit/  ▸ picoCTF 2026 (CyLab)  ▸ 🟢 Easy
+│   └── disk-sleuth-2/  ▸ picoCTF  ▸ 🟡 Medium
+└── 🕵️ OSINT/
+    └── papertrail/  ▸ CREST CTF 2.0  ▸ 🟡 Medium
 ```
 
----
+## ▓▓▓▓▓▓▓▓▓▓ CHALLENGES ▓▓▓▓▓▓▓▓▓▓
 
-## 🗂️ Index
-
-### 🔍 Forensics
-| Challenge | Platform | Difficulty | Key Concept |
-|---|---|---|---|
-| [Binary Digits](./Forensics/binary-digit/) | picoCTF 2026 (CyLab) | Easy | Binary string to image decoding |
-| [Disk, disk, sleuth! II](./Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis |
+### 🔍 FORENSICS
+| Challenge | Platform | Diff | Key Concept |
+|-----------|----------|------|-------------|
+| [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | 🟢 Easy | **Binary string encoding** |
+| [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | 🟡 Medium | Every partitioned disk image requires specifying the partition offset with `-o` before TSK can read the filesystem |
 
 ### 🕵️ OSINT
-| Challenge | Platform | Difficulty | Key Concept |
-|---|---|---|---|
-| [Papertrail](./OSINT/papertrail/) | CREST CTF 2.0 | Medium | DOCX metadata forensics |
+| Challenge | Platform | Diff | Key Concept |
+|-----------|----------|------|-------------|
+| [Papertrail](osint/papertrail/) | CREST CTF 2.0 | 🟡 Medium | Office documents (DOCX) carry rich metadata in `docProps/core.xml` |
 
 ---
 
-## 🛠️ Tools I Use
-
-`The Sleuth Kit` `Autopsy` `Wireshark` `Volatility` `Ghidra` `Binwalk` `Steghide` `CyberChef` `Python` `unzip` `base64` `grep`
-
----
-
-## 📬 Connect
-
-- 🌐 Based in Kerala, India | Interested in DFIR & Cyber Forensics
-
----
-
-*Updated regularly as I solve more challenges. Each writeup includes commands, output, and key learning points.*
+*Last updated: 2026-10-25 • Auto-generated on push*

@@ -4,30 +4,10 @@ Forensics challenges involve extracting hidden information from files, disk imag
 
 ---
 
-## Solved Challenges
+## 📋 Challenges
 
-| Challenge | Platform | Difficulty | Key Concept | Flag |
-|---|---|---|---|---|
-| [Binary Digits](./binary-digit/) | picoCTF 2026 (CyLab) | Easy | Binary string to image decoding | ✅ |
-| [Disk, disk, sleuth! II](./disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis | ✅ |
-
----
-
-## Key Tools for Forensics
-
-| Tool | Use Case |
-|---|---|
-| `mmls` | Read partition table from disk image |
-| `fsstat` | Filesystem metadata analysis |
-| `fls` | List files in a disk image |
-| `icat` | Extract file by inode number |
-| `strings` | Extract readable strings from binary files |
-| `binwalk` | Detect and extract embedded files |
-| `steghide` | Steganography detection/extraction |
-| `wireshark` | Network packet capture analysis |
-| `volatility` | Memory dump forensics |
-| `exiftool` | File metadata extraction |
-
----
-
-*All writeups include step-by-step commands, terminal output, and a "What I Learned" section.*
+### 🔍 FORENSICS
+| Challenge | Platform | Diff | Key Concept | Flag |
+|-----------|----------|------|-------------|------|
+| [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | 🟢 Easy | **Binary string encoding** | ✅ |
+| [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | 🟡 Medium | Every partitioned disk image requires specifying the partition offset with `-o` before TSK can read the filesystem | ✅ |
