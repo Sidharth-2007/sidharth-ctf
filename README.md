@@ -10,12 +10,12 @@ I'm a computer science student from Kerala, India with a focus on **digital fore
 
 | Category | Solved |
 |---|---|
-| 🔍 Forensics | 1 |
+| 🔍 Forensics | 2 |
 | 🕵️ OSINT | 1 |
 | 🔄 Reverse Engineering | 0 |
 | 🌐 Web | 0 |
 | ⚙️ General Skills | 0 |
-| **Total** | **2** |
+| **Total** | **3** |
 
 ---
 
@@ -36,6 +36,7 @@ sidharth-ctf/
 ### 🔍 Forensics
 | Challenge | Platform | Difficulty | Key Concept |
 |---|---|---|---|
+| [Binary Digits](./Forensics/binary-digit/) | picoCTF 2026 (CyLab) | Easy | Binary string to image decoding |
 | [Disk, disk, sleuth! II](./Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis |
 
 ### 🕵️ OSINT
