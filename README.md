@@ -8,9 +8,9 @@ A structured collection of CTF writeups documenting forensic analysis, reverse e
 
 | Category | Solved |
 |----------|--------|
-| Forensics | 3 |
+| Forensics | 4 |
 | OSINT | 1 |
-| **Total** | **4** |
+| **Total** | **5** |
 
 ---
 
@@ -21,6 +21,7 @@ A structured collection of CTF writeups documenting forensic analysis, reverse e
 | Challenge | Platform | Difficulty | Key Concept |
 |-----------|----------|------------|-------------|
 | [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | Easy | **Binary string encoding** |
+| [Glory of the Garden](Forensics/glory-of-garden/) | picoCTF 2019 (CyLab) | Easy | **`strings` is the first line of defense** |
 | [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | Easy | PDF metadata fields (Author, Producer, Creator, etc.) can st... |
 | [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | Medium | Every partitioned disk image requires specifying the partiti... |
 
