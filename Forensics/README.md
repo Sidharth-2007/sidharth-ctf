@@ -8,6 +8,7 @@ Forensics challenges involve extracting hidden information from files, disk imag
 
 | Challenge | Platform | Difficulty | Key Concept | Flag |
 |---|---|---|---|---|
+| [Binary Digits](./binary-digit/) | picoCTF 2026 (CyLab) | Easy | Binary string to image decoding | ✅ |
 | [Disk, disk, sleuth! II](./disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis | ✅ |
 
 ---
