@@ -1,45 +1,34 @@
-```
-███████╗███████╗██████╗ ██╗   ██╗███████╗██████╗ 
-██╔════╝██╔════╝██╔══██╗██║   ██║██╔════╝██╔══██╗
-███████╗█████╗  ██████╔╝██║   ██║█████╗  ██████╔╝
-╚════██║██╔══╝  ██╔══██╗╚██╗ ██╔╝██╔══╝  ██╔══██╗
-███████║███████╗██║  ██║ ╚████╔╝ ███████╗██║  ██║
-╚══════╝╚══════╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝
-        sidharth-ctf
-```
+# sidharth-ctf
 
-## ▓▓▓▓▓▓▓▓▓▓ PROGRESS MATRIX ▓▓▓▓▓▓▓▓▓▓
+A structured collection of CTF writeups documenting forensic analysis, reverse engineering, web exploitation, and more.
 
-🔍 **Forensics** `████░░░░░░░░░░░░` 3
-🕵️ **OSINT** `█░░░░░░░░░░░░░░░` 1
+---
 
-**TOTAL: 4 CHALLENGES SOLVED**
+## Progress Summary
 
-## ▓▓▓▓▓▓▓▓▓▓ REPO TREE ▓▓▓▓▓▓▓▓▓▓
+| Category | Solved |
+|----------|--------|
+| Forensics | 3 |
+| OSINT | 1 |
+| **Total** | **4** |
 
-```
-sidharth-ctf/
-├── 🔍 Forensics/
-│   ├── binary-digit/  ▸ picoCTF 2026 (CyLab)  ▸ 🟢 Easy
-│   ├── riddle-registry/  ▸ picoCTF 2026 (CyLab)  ▸ 🟢 Easy
-│   └── disk-sleuth-2/  ▸ picoCTF  ▸ 🟡 Medium
-└── 🕵️ OSINT/
-    └── papertrail/  ▸ CREST CTF 2.0  ▸ 🟡 Medium
-```
+---
 
-## ▓▓▓▓▓▓▓▓▓▓ CHALLENGES ▓▓▓▓▓▓▓▓▓▓
+## Challenges by Category
 
-### 🔍 FORENSICS
-| Challenge | Platform | Diff | Key Concept |
-|-----------|----------|------|-------------|
-| [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | 🟢 Easy | **Binary string encoding** |
-| [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | 🟢 Easy | PDF metadata fields (Author, Producer, Creator, etc.) can store hidden data |
-| [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | 🟡 Medium | Every partitioned disk image requires specifying the partition offset with `-o` before TSK can read the filesystem |
+### Forensics
 
-### 🕵️ OSINT
-| Challenge | Platform | Diff | Key Concept |
-|-----------|----------|------|-------------|
-| [Papertrail](osint/papertrail/) | CREST CTF 2.0 | 🟡 Medium | Office documents (DOCX) carry rich metadata in `docProps/core.xml` |
+| Challenge | Platform | Difficulty | Key Concept |
+|-----------|----------|------------|-------------|
+| [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | Easy | **Binary string encoding** |
+| [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | Easy | PDF metadata fields (Author, Producer, Creator, etc.) can st... |
+| [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | Medium | Every partitioned disk image requires specifying the partiti... |
+
+### OSINT
+
+| Challenge | Platform | Difficulty | Key Concept |
+|-----------|----------|------------|-------------|
+| [Papertrail](osint/papertrail/) | CREST CTF 2.0 | Medium | Office documents (DOCX) carry rich metadata in `docProps/cor... |
 
 ---
 
