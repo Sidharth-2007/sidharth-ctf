@@ -10,4 +10,5 @@ Forensics challenges involve extracting hidden information from files, disk imag
 | Challenge | Platform | Diff | Key Concept | Flag |
 |-----------|----------|------|-------------|------|
 | [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | 🟢 Easy | **Binary string encoding** | ✅ |
+| [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | 🟢 Easy | PDF metadata fields (Author, Producer, Creator, etc.) can store hidden data | ✅ |
 | [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | 🟡 Medium | Every partitioned disk image requires specifying the partition offset with `-o` before TSK can read the filesystem | ✅ |
