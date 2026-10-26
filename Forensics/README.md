@@ -14,6 +14,7 @@ Forensics challenges involve extracting hidden information from files, disk imag
 | [Disk, disk, sleuth! II](disk-sleuth-2/) | picoCTF | Medium | Every partitioned disk image requires specifying the partition offset with `-o` ... | ✅ |
 | [information](information/) | cylabs | Easy | **JPEG metadata (License field) base64 encoding** | ✅ |
 | [So Meta](so_meta/) | picoCTF 2019 | Medium | **PNG XMP metadata (Artist field) plaintext flag** | ✅ |
+| [What Lies Within](what_lies_within/) | cylabs | Medium | **PNG LSB steganography (zsteg, b1/rgb/lsb/xy)** | ✅ |
 
 ---
 

@@ -14,9 +14,9 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 
 | Category | Challenges Solved |
 |----------|-------------------|
-| Forensics | 6 |
+| Forensics | 7 |
 | OSINT | 1 |
-| **Total** | **7** |
+| **Total** | **8** |
 
 ---
 
@@ -32,6 +32,7 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 | [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis (mmls, fls, icat) |
 | [information](Forensics/information/) | cylabs | Easy | JPEG metadata (License field) base64 |
 | [So Meta](Forensics/so_meta/) | picoCTF 2019 | Medium | PNG XMP metadata (Artist field) plaintext |
+| [What Lies Within](Forensics/what_lies_within/) | cylabs | Medium | PNG LSB steganography (zsteg) |
 
 ### OSINT
 
@@ -51,7 +52,8 @@ sidharth-ctf/
 │   ├── riddle-registry/
 │   ├── disk-sleuth-2/
 │   ├── information/
-│   └── so_meta/
+│   ├── so_meta/
+│   └── what_lies_within/
 ├── osint/
 │   └── papertrail/
 ├── _template/
