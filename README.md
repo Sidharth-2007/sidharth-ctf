@@ -14,9 +14,9 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 
 | Category | Challenges Solved |
 |----------|-------------------|
-| Forensics | 4 |
+| Forensics | 5 |
 | OSINT | 1 |
-| **Total** | **5** |
+| **Total** | **6** |
 
 ---
 
@@ -30,6 +30,7 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 | [Glory of the Garden](Forensics/glory-of-garden/) | picoCTF 2019 (CyLab) | Easy | `strings` extraction from JPEG |
 | [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | Easy | PDF metadata (Author field) base64 |
 | [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis (mmls, fls, icat) |
+| [information](Forensics/information/) | cylabs | Easy | JPEG metadata (License field) base64 |
 
 ### OSINT
 
@@ -47,7 +48,8 @@ sidharth-ctf/
 │   ├── binary-digit/
 │   ├── glory-of-garden/
 │   ├── riddle-registry/
-│   └── disk-sleuth-2/
+│   ├── disk-sleuth-2/
+│   └── information/
 ├── osint/
 │   └── papertrail/
 ├── _template/
