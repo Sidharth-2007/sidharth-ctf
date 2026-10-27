@@ -14,9 +14,9 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 
 | Category | Challenges Solved |
 |----------|-------------------|
-| Forensics | 7 |
+| Forensics | 8 |
 | OSINT | 1 |
-| **Total** | **8** |
+| **Total** | **9** |
 
 ---
 
@@ -27,9 +27,10 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 | Challenge | Platform | Difficulty | Key Concept |
 |-----------|----------|------------|-------------|
 | [Binary Digits](Forensics/binary-digit/) | picoCTF 2026 (CyLab) | Easy | Binary string to image decoding |
-| [Glory of the Garden](Forensics/glory-of-garden/) | picoCTF 2019 (CyLab) | Easy | `strings` extraction from JPEG |
-| [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | Easy | PDF metadata (Author field) base64 |
 | [Disk, disk, sleuth! II](Forensics/disk-sleuth-2/) | picoCTF | Medium | TSK disk image analysis (mmls, fls, icat) |
+| [Glory of the Garden](Forensics/glory-of-garden/) | picoCTF 2019 (CyLab) | Easy | `strings` extraction from JPEG |
+| [Matryoshka Dolls](Forensics/matryoshka-dolls/) | picoCTF 2021 (CyLab) | Medium | Recursive PNG/zip extraction (Matryoshka-style) |
+| [Riddle Registry](Forensics/riddle-registry/) | picoCTF 2026 (CyLab) | Easy | PDF metadata (Author field) base64 |
 | [information](Forensics/information/) | cylabs | Easy | JPEG metadata (License field) base64 |
 | [So Meta](Forensics/so_meta/) | picoCTF 2019 | Medium | PNG XMP metadata (Artist field) plaintext |
 | [What Lies Within](Forensics/what_lies_within/) | cylabs | Medium | PNG LSB steganography (zsteg) |
@@ -48,10 +49,11 @@ Computer Science student from Kerala, India with a focus on **Digital Forensics 
 sidharth-ctf/
 ├── Forensics/
 │   ├── binary-digit/
-│   ├── glory-of-garden/
-│   ├── riddle-registry/
 │   ├── disk-sleuth-2/
+│   ├── glory-of-garden/
 │   ├── information/
+│   ├── matryoshka-dolls/
+│   ├── riddle-registry/
 │   ├── so_meta/
 │   └── what_lies_within/
 ├── osint/
